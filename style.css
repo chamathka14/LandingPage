@@ -7,7 +7,7 @@
 
 body
 {
-font-family: Helvetica;
+    font-family: Helvetica;
 }
 
 #nav-bar
@@ -62,8 +62,14 @@ font-family: Helvetica;
     border-width: 4px;
     border-color: #2192FF;
     border-radius: 30px;
+    background: rgba(148, 218, 255, .0);
+    color: #FFFFFF;
 }
 
+/*.searchbg
+{
+    background: rgba(148, 218, 255, .3);
+}*/
 .fa-magnifying-glass
 {
     color: #2192FF;
@@ -141,6 +147,7 @@ font-family: Helvetica;
 .services
 {
     padding: 80px 0;
+    margin: 0;
 }
 
 .services h4
@@ -173,6 +180,53 @@ font-family: Helvetica;
 
 }
 
+/*---------------------------------------Service section 2-------------------------------------*/
+
+@media screen and(max-width: 20%) 
+{
+    .holdingcontainer
+    {
+    flex-direction: column
+    }
+}
+.holdingcontainer
+{
+    width: 100%;
+    display: flex;
+    background: #ffe600;
+
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.internalcontainerL
+{
+    flex: 1;
+    background: #2D46B9;
+    padding: 30px;
+    font-size: 26;
+    text-transform: uppercase;
+
+}
+
+.internalcontainerM
+{
+    flex: 1;
+    background: #000000;
+    padding: 30px;
+    font-size: 26;
+    text-transform: uppercase;
+
+}
+
+.internalcontainerR
+{
+    flex: 1;
+    background: #FF0000;
+    padding: 30px;
+    font-size: 26;
+    text-transform: uppercase;
+}
 
  /*------------------------------------------Footer section---------------------------------------*/
  
